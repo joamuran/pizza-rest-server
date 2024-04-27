@@ -22,9 +22,10 @@ app.use(json());
 // Servidor de fitxers estàtic per a les imatges
 app.use(express.static('public'))
 
-// L'app escolta pel port 8080
-app.listen(8080, () => {
-    console.log('Escuchando por el puerto 8080')
+// L'app escolta pel port 8000
+let defaultPort = 8000;
+app.listen(defaultPort, () => {
+    console.log('Escoltant pel port ' + defaultPort);
 });
 
 
