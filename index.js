@@ -1,5 +1,6 @@
 // Llibreríes
 import express from 'express';
+import cors from 'cors';
 
 // Per a les peticions POST
 import bodyParser from 'body-parser';
@@ -18,6 +19,9 @@ const app = express();
 // del client i les passe a JSON
 app.use(urlencoded({ extended: true }));
 app.use(json());
+
+// Activem CORS
+app.use(cors());
 
 // Servidor de fitxers estàtic per a les imatges
 app.use(express.static('public'))
