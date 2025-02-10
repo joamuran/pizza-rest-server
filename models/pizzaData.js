@@ -50,7 +50,7 @@ export const pizzesData = [
         desc: 'Tomaca, pernil, xampinyons, salami, mozzarella, anxoves i orenga.',
         vegetariana: false,
         alergens: ['gluten', 'lactosa'],
-        img: '/img/4_estacions.jpg',
+        img: '/img/4_estacions.png',
         preu: 10.99,
     },
     {
