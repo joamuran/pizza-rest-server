@@ -10,6 +10,7 @@ const { urlencoded, json } = bodyParser;
 import pizzaController from './controllers/pizzaController.js';
 import begudaController from './controllers/begudaController.js';
 import entrantsController from './controllers/entrantsController.js';
+import orderController from './controllers/orderController.js';
 
 // Definim app com a aplicació express, amb el 
 // mètode de factoria express().
@@ -44,6 +45,7 @@ const router = express.Router();
 router.get('/pizzes', pizzaController.getPizzes);
 router.get('/beguda', begudaController.getBegudes);
 router.get('/entrants', entrantsController.getEntrants);
+router.post('/order', orderController.setOrder);
 
 app.use("/api/pizzeria", router);
 app.use('*', DefaultController);
