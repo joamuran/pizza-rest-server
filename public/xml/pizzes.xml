@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pizzes>
-    <page>1<º/page>
+    <page>1</page>
     <per_page>20</per_page>
     <total_count>13</total_count>
     <records>
