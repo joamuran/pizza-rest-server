@@ -7,3 +7,7 @@ Aquesta aplicació implementa un servidor web amb ExpressJS, que ofereix una API
 * `/api/pizzeria/entrants`: Obté una llista dels entrants. El mètode suporta paginació de la mateixa manera que les pizzes.
 * `/api/pizzeria/begudes`: Obté una llista de les begudes. El mètode suporta paginació de la mateixa manera que les pizzes.
 
+# Exemples en format XML
+
+Al directori public/xml s'ha incorporat també un fitxer en format XML per a pizzes.
+
