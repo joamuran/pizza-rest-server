@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzes>
+    <page>1<º/page>
+    <per_page>20</per_page>
+    <total_count>13</total_count>
+    <records>
+        <pizza>
+            <id>margarita</id>
+            <nom>Pizza Margarita</nom>
+            <desc>Base fina, tomaca, mozzarella i alfàbrega.</desc>
+            <vegetariana>true</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/margarita.png</img>
+            <preu>9.99</preu>
+        </pizza>
+        <pizza>
+            <id>verdures</id>
+            <nom>Vegana de Verdures</nom>
+            <desc>Pimentó, ceba olives i tomaca</desc>
+            <vegetariana>true</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+            </alergens>
+            <img>/img/vegetal.png</img>
+            <preu>10.99</preu>
+        </pizza>
+        <pizza>
+            <id>quatre_formatges</id>
+            <nom>Quatre Formatges</nom>
+            <desc>Mozzarella, gorgonzola, parmesà i provolone.</desc>
+            <vegetariana>true</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/4_formatges.png</img>
+            <preu>11.99</preu>
+        </pizza>
+        <pizza>
+            <id>funghi</id>
+            <nom>Pizza Funghi</nom>
+            <desc>Xampinyons i mozzarella</desc>
+            <vegetariana>true</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/funghi.png</img>
+            <preu>10.99</preu>
+        </pizza>
+        <pizza>
+            <id>diavola</id>
+            <nom>Pizza Diavola</nom>
+            <desc>Pimentó roig picant, i salami</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/diavola.jpg</img>
+            <preu>11.99</preu>
+        </pizza>
+        <pizza>
+            <id>quatre_estacions</id>
+            <nom>Pizza Quatre Estacions</nom>
+            <desc>Tomaca, pernil, xampinyons, salami, mozzarella, anxoves i orenga.</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/4_estacions.png</img>
+            <preu>10.99</preu>
+        </pizza>
+        <pizza>
+            <id>capricciosa</id>
+            <nom>Pizza Capricciosa</nom>
+            <desc>Olives, xampinyons, pernil dolç i mozzarella</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <preu>11.99</preu>
+        </pizza>
+        <pizza>
+            <id>hawaiana</id>
+            <nom>Pizza Hawaiana</nom>
+            <desc>Pernil dolç i pinya</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/hawaiana.jpg</img>
+            <preu>11.99</preu>
+        </pizza>
+        <pizza>
+            <id>carbonara</id>
+            <nom>Pizza Carbonara</nom>
+            <desc>Ou, nata, formatge i bacon</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/carbonara.jpg</img>
+            <preu>11.99</preu>
+        </pizza>
+        <pizza>
+            <id>marinera</id>
+            <nom>Pizza Marinera</nom>
+            <desc>Tonyina, palets de mar, calamar i gambes</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+                <alergen>peix</alergen>
+                <alergen>crustacis</alergen>
+                <alergen>moluscos</alergen>
+            </alergens>
+            <img>/img/marinera.png</img>
+            <preu>12.99</preu>
+        </pizza>
+        <pizza>
+            <id>prosciutto_rucola</id>
+            <nom>Pizza Prosciutto i Rúcula</nom>
+            <desc>Pernil cru i rúcola</desc>
+            <vegetariana>false</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/prosciutto_rucola.png</img>
+            <preu>12.99</preu>
+        </pizza>
+        <pizza>
+            <id>calzone</id>
+            <nom>Pizza Calzone</nom>
+            <desc>Pizza tancada amb tomaca, formatge i pernil</desc>
+            <vegetariana>true</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/calzone.png</img>
+            <preu>10.99</preu>
+        </pizza>
+        <pizza>
+            <id>bianca</id>
+            <nom>Pizza Bianca</nom>
+            <desc>Sense tomaca, Formatge, oli d'oliva i herbes</desc>
+            <vegetariana>true</vegetariana>
+            <alergens>
+                <alergen>gluten</alergen>
+                <alergen>lactosa</alergen>
+            </alergens>
+            <img>/img/bianca.png</img>
+            <preu>10.99</preu>
+        </pizza>
+    </records>
+</pizzes>
