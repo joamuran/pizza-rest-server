@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Definició de l'element "pizzes" -->
+    <xs:element name="pizzes">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Elements de la paginació -->
+                <xs:element name="page" type="xs:int"/>
+                <xs:element name="per_page" type="xs:int"/>
+                <xs:element name="total_count" type="xs:int"/>
+                <!-- L'element "records" conté les pizzes -->
+                <xs:element name="records">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Un o més elements de "pizza" -->
+                            <xs:element name="pizza" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Informació de la pizza -->
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="descripcio" type="xs:string"/>
+                                        <xs:element name="ingredients" type="xs:string"/>
+                                        <xs:element name="vegetaria" type="xs:boolean"/>
+                                        <xs:element name="gluten" type="xs:boolean"/>
+                                        <xs:element name="lactosa" type="xs:boolean"/>
+                                        <xs:element name="imatge" type="xs:string"/>
+                                        <xs:element name="preu" type="xs:decimal"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
